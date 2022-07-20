@@ -1,6 +1,6 @@
 {
-    "name": "smartdog23/php-azure-face-api",
-    "description": "SmartDog23 - PHP Azure FaceAPI - Facial Recognition Software",
+    "name": "azulae/php-azure-face-api",
+    "description": "Azulae - PHP Azure FaceAPI - Facial Recognition Software",
     "type": "library",
     "keywords": [
         "azure",
@@ -9,22 +9,22 @@
         "recognition",
         "detection"
     ],
-    "homepage": "https://github.com/smartdog23/php-azure-face-api",
+    "homepage": "https://github.com/azulae/php-azure-face-api",
     "require": {
-        "guzzlehttp/guzzle": "^6.4",
+        "guzzlehttp/guzzle": "^7.0.1",
         "php": ">=7.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Valdir Lourenco",
-            "email": "contact@valdir.dev",
-            "homepage": "https://valdir.dev"
+            "name": "Juan Antonio FB",
+            "email": "juan.fernandez@azulae.es",
+            "homepage": "https://azulae.es"
         }
     ],
     "autoload": {
         "psr-4": {
-            "SmartDog23\\AzureFaceApi\\": "src/"
+            "Azulae\\AzureFaceApi\\": "src/"
         }
     }
 }
